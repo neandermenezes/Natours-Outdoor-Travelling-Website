@@ -1,0 +1,52 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(black, .8);
+  z-index: 9999;
+
+  &__content {
+    @include absCenter;
+
+    width: 75%;
+    background-color: white;
+    box-shadow: 0 2rem 4rem rgba(black, .2);
+    border-radius: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+  }
+
+  &__left {
+    flex: 0 0 33.333333%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__right {
+    flex: 1;
+    padding: 3rem 5rem;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 1px solid var(--color-grey-light-2);
+
+    hyphens: auto;
+  }
+}
