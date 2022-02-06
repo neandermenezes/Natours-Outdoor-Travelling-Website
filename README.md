@@ -17,3 +17,5 @@ Clone the repository
 - npm start
 ```
 
+![Captura de tela de 2022-02-06 12-20-52](https://user-images.githubusercontent.com/87549369/152687853-3073da17-697c-4e0b-9fcf-9a09b1eadca5.png)
+![Captura de tela de 2022-02-06 12-21-15](https://user-images.githubusercontent.com/87549369/152687856-1daf679d-206f-40fa-ad01-67a57a073b56.png)
